@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+/* the body will be orchid and font blue*/
+body{
+  background-color:orchid;
+  color:blue;
+}
+/* the header will be yellow padding 20px and text aligned right*/
+.header{
+  background-color:#f2f542;
+  padding:20px;
+  text-align:center;
+  
+}
+/*the navbar will be burnt orange, padding 20px*/
+.navbar{
+  background-color:rgba(220,120,75,1);
+  padding:20px;
+  overflow:hidden;
+}
+/*the navbar will have display block, float left, text center, padding 14 top 16 left*/
+    .navbar a{
+color:#f1f1f1;
+float:left;
+display:block;
+text-align:center;
+padding:20px 10px;
+  }
+
+a:hover{
+  background-color:#42e6f5;
+  float:left;
+  padding: 20px 10px;
+  display: block;
+  text-align:center;
+  color:black;
+}
+
+
+.row{
+  overflow:hidden;
+}
+.column{
+  float:left;
+  width:33.33%;
+  padding:15px;
+}
