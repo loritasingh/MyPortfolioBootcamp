@@ -1,0 +1,63 @@
+.header{
+  background-color:#657fe6;
+  padding:20px;
+  text-align:center;
+  
+}
+/*the navbar will be burnt orange, padding 20px*/
+.navbar{
+  background-color:#65cce6;
+  padding:20px;
+  overflow:hidden;
+}
+/*the navbar will have display block, float left, text center, padding 14 top 16 left*/
+    .navbar a{
+color:#fdf50d;
+float:left;
+display:block;
+text-align:center;
+padding:20px 10px;
+  }
+
+a:hover{
+  background-color:#42e6f5;
+  float:left;
+  padding: 30px 20px;
+  display: block;
+  text-align:center;
+  color:black;
+}
+
+
+
+
+
+#navlist{
+  position: relative;
+}
+#navlist li{
+  margin:0;
+  padding:0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+#home  {
+  left: 0px;
+  width: 40px;
+  background: url('img_navsprites.gif') 0 0;
+}
+#prev {
+  left: 63px;
+  width: 47px
+  background: url('img_navsprites.gif') 47px 0;
+}
+#next {
+  left: 129px;
+  width: 43px;
+  background: url('img_navsprites.gif') 91px 0
+}
